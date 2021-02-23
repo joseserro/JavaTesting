@@ -1,0 +1,14 @@
+pt.upskill.projeto2.financemanager
+pt.upskill.projeto2.financemanager.accounts
+pt.upskill.projeto2.financemanager.accounts.formats
+pt.upskill.projeto2.financemanager.accounts.formats.unittests
+pt.upskill.projeto2.financemanager.accounts.unittests
+pt.upskill.projeto2.financemanager.categories
+pt.upskill.projeto2.financemanager.categories.unittests
+pt.upskill.projeto2.financemanager.date
+pt.upskill.projeto2.financemanager.date.unittests
+pt.upskill.projeto2.financemanager.exceptions
+pt.upskill.projeto2.financemanager.filters
+pt.upskill.projeto2.financemanager.filters.unittests
+pt.upskill.projeto2.financemanager.gui
+pt.upskill.projeto2.utils

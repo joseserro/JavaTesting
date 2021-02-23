@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+html,body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #e4e4e4;
+    padding: 10px 20px;
+}
+h1 {
+    margin: 0;
+}
+.nav-container {
+    max-width: 800px;
+    margin: auto;
+}
+.nav-buttons {
+    margin-top: 10px;
+    color: #a2a2a2;
+}
+.nav-buttons a {
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #353535;
+    color: white;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 2px 0px #13131373;
+}
+section {
+    color: #2f2f2f;
+    padding: 0 20px;
+}
+.section-container {
+    max-width: 800px;
+    margin: auto;
+}
+.section-container p {
+	text-align: justify;
+}
+section h1 {
+    margin-top: 10px;
+}
+img.place-image {
+    width: 500px;
+    margin-left: calc(50% - 250px);
+    border: 2px solid #c1d8dc;
+    border-radius: 4px;
+}
+footer {
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ede7f7;
+    text-align: center;
+}
+.footer-nav {
+    padding: 5px 0 15px;
+}
+.footer-nav a {
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #353535;
+    color: white;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 2px 0px #13131373;
+}
+span.cc {
+    font-weight: bold;
+}

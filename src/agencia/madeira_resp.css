@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+html,body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #e4e4e4;
+    padding: 10px 20px;
+}
+h1 {
+    margin: 0;
+}
+.nav-container {
+    max-width: 800px;
+    margin: auto;
+}
+.nav-buttons {
+    margin-top: 10px;
+    color: #a2a2a2;
+}
+.nav-buttons a {
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #353535;
+    color: white;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 2px 0px #13131373;
+}
+section {
+    color: #2f2f2f;
+    padding: 0 20px;
+}
+.section-container {
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+}
+.section-container p {
+	text-align: justify;
+	margin: 10px 0;
+}
+.section-container > div {
+	display: block;
+}
+.section-container > div:not(:last-child) {
+	padding-right: 20px;
+}
+.section-container > div:last-child h1 {
+    text-align: right;
+}
+section h1 {
+    margin-top: 10px;
+}
+img.place-image {
+    width: 100%;
+    border: 2px solid #c1d8dc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+footer {
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ede7f7;
+    text-align: center;
+}
+.footer-nav {
+    padding: 5px 0 15px;
+}
+.footer-nav a {
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #353535;
+    color: white;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 2px 0px #13131373;
+}
+span.cc {
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    .section-container {
+        flex-direction: column;
+    }
+    .section-container > div {
+        width: 100%;
+    }
+    .section-container > div:last-child h1 {
+        text-align: left;
+    }
+    .nav-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 50px;
+        align-items: center;
+        color: transparent;
+    }
+    .nav-buttons a {
+        flex-grow: 1;
+        text-align: center;
+        display: block;
+    }
+    .footer-nav {
+        display: none;
+    }
+}

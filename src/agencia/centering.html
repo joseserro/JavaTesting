@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste</title>
+    <style>
+        .card-container {
+            border: 1px solid gray;
+            padding: 10px;
+            display: flex;
+            height: 100vw;
+        }
+
+        .card {
+          display: inline-block;
+          border-radius: 5px;
+          background-color: #c7c7c7;
+          width: 200px;
+          font-family: sans-serif;
+          box-shadow: 2px 2px 4px 1px #13131373;
+          margin: auto;
+        }
+        .card-header {
+          padding: 5px 10px;
+          background-color: #b1b1b1;
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+        }
+        .card-header h4 {
+          margin: 0;
+        }
+        .card-body {
+          padding: 0 10px 10px;
+        }
+        span.test {
+          font-weight: bold;
+          font-style: italic;
+          color: darkgreen;
+        }
+        span.centered {
+          text-align: center;
+          display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="card-container">
+    <div class="card">
+        <div class="card-header"><h4>Hello world!</h4></div>
+        <div class="card-body">
+            <p>This is a <span class="test">test!</span></p>
+            <span class="centered">I'm centered!</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
